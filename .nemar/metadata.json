@@ -1,0 +1,21 @@
+{
+  "version": "2.0",
+  "dataset_id": "on001787",
+  "source": "openneuro",
+  "source_id": "ds001787",
+  "title": "EEG meditation study",
+  "authors": {
+    "Arnaud Delorme": {},
+    "Tracy Brandmeyer": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds001787.v1.1.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded"
+}
