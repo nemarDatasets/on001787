@@ -1,39 +1,61 @@
-onset	duration	trial_type	response_time	sample	value
-184.8554687500	n/a	stimulus	n/a	47323.0000000000	128
-189.9960937500	n/a	response	n/a	48639.0000000000	4
-270.4023437500	n/a	stimulus	n/a	69223.0000000000	128
-402.4804687500	n/a	stimulus	n/a	103035.0000000000	128
-405.5507812500	n/a	response	n/a	103821.0000000000	2
-409.7734375000	n/a	response	n/a	104902.0000000000	2
-412.3242187500	n/a	response	n/a	105555.0000000000	2
-437.3281250000	n/a	stimulus	n/a	111956.0000000000	128
-443.8789062500	n/a	response	n/a	113633.0000000000	2
-524.7226562500	n/a	stimulus	n/a	134329.0000000000	128
-527.7148437500	n/a	response	n/a	135095.0000000000	2
-530.0234375000	n/a	response	n/a	135686.0000000000	2
-627.5937500000	n/a	stimulus	n/a	160664.0000000000	128
-632.6289062500	n/a	response	n/a	161953.0000000000	8
-766.8828125000	n/a	stimulus	n/a	196322.0000000000	128
-772.9531250000	n/a	response	n/a	197876.0000000000	2
-775.3476562500	n/a	response	n/a	198489.0000000000	2
-777.8125000000	n/a	response	n/a	199120.0000000000	2
-815.8046875000	n/a	stimulus	n/a	208846.0000000000	128
-819.3710937500	n/a	response	n/a	209759.0000000000	2
-821.9492187500	n/a	response	n/a	210419.0000000000	4
-908.9843750000	n/a	stimulus	n/a	232700.0000000000	128
-912.5937500000	n/a	response	n/a	233624.0000000000	2
-1028.0585937500	n/a	stimulus	n/a	263183.0000000000	128
-1033.7734375000	n/a	response	n/a	264646.0000000000	2
-1096.8046875000	n/a	stimulus	n/a	280782.0000000000	128
-1103.3046875000	n/a	response	n/a	282446.0000000000	4
-1105.5312500000	n/a	response	n/a	283016.0000000000	2
-1158.5273437500	n/a	stimulus	n/a	296583.0000000000	128
-1161.7539062500	n/a	response	n/a	297409.0000000000	4
-1165.2109375000	n/a	response	n/a	298294.0000000000	2
-1167.5820312500	n/a	response	n/a	298901.0000000000	2
-1234.5859375000	n/a	stimulus	n/a	316054.0000000000	128
-1240.3789062500	n/a	response	n/a	317537.0000000000	2
-1350.1992187500	n/a	stimulus	n/a	345651.0000000000	128
-1355.1484375000	n/a	response	n/a	346918.0000000000	2
-1441.3593750000	n/a	stimulus	n/a	368988.0000000000	128
-1450.0625000000	n/a	response	n/a	371216.0000000000	4
+onset	duration	trial_type	response_time	sample	value	trial_index	source	txt_label	txt_onset_log_s	txt_onset_eeg_clock_s	key_code_txt	status_txt	trial_clock_offset_s	merge_note	complete_trial
+184.8554687500	n/a	stimulus	n/a	47323.0000000000	128	1	eeg+txt	MW_question	79.1000	184.8554687500	n/a	n/a	105.755469	stimulus_value_128_is_MW_prompt_in_EEG	1
+189.9554687500	n/a	response	n/a	n/a	1	1	eeg+txt	key_status_1	82.0000	187.7554687500	0	1	105.755469	txt_key0_present_in_eeg_rare	1
+189.9960937500	n/a	response	n/a	48639.0000000000	4	1	eeg+txt	key_status_2	84.2000	189.9554687500	2	2	105.755469	aligned_by_order	1
+192.3554687500	n/a	response	n/a	n/a	1	1	eeg+txt	key_status_3	86.6000	192.3554687500	0	3	105.755469	txt_key0_present_in_eeg_rare	1
+270.4023437500	n/a	stimulus	n/a	69223.0000000000	128	2	eeg+txt	MW_question	164.6000	270.4023437500	n/a	n/a	105.802344	stimulus_value_128_is_MW_prompt_in_EEG	1
+273.5023437500	n/a	response	n/a	n/a	1	2	eeg+txt	key_status_1	167.7000	273.5023437500	0	1	105.802344	txt_key0_present_in_eeg_rare	1
+281.0023437500	n/a	response	n/a	n/a	1	2	eeg+txt	key_status_2	175.2000	281.0023437500	0	2	105.802344	txt_key0_present_in_eeg_rare	1
+283.5023437500	n/a	response	n/a	n/a	1	2	eeg+txt	key_status_3	177.7000	283.5023437500	0	3	105.802344	txt_key0_present_in_eeg_rare	1
+402.4804687500	n/a	stimulus	n/a	103035.0000000000	128	3	eeg+txt	MW_question	296.7000	402.4804687500	n/a	n/a	105.780469	stimulus_value_128_is_MW_prompt_in_EEG	1
+405.5507812500	n/a	response	n/a	103821.0000000000	2	3	eeg+txt	key_status_1	299.7000	405.4804687500	1	1	105.780469	aligned_by_order	1
+409.7734375000	n/a	response	n/a	104902.0000000000	2	3	eeg+txt	key_status_2	303.9000	409.6804687500	1	2	105.780469	aligned_by_order	1
+412.3242187500	n/a	response	n/a	105555.0000000000	2	3	eeg+txt	key_status_3	306.5000	412.2804687500	1	3	105.780469	aligned_by_order	1
+437.3281250000	n/a	stimulus	n/a	111956.0000000000	128	4	eeg+txt	MW_question	331.5000	437.3281250000	n/a	n/a	105.828125	stimulus_value_128_is_MW_prompt_in_EEG	1
+443.8789062500	n/a	response	n/a	113633.0000000000	1	4	eeg+txt	key_status_1	335.2000	441.0281250000	0	1	105.828125	txt_key0_present_in_eeg_rare	1
+443.9281250000	n/a	response	n/a	n/a	2	4	eeg+txt	key_status_2	338.1000	443.9281250000	1	2	105.828125	aligned_by_order	1
+448.7281250000	n/a	response	n/a	n/a	1	4	eeg+txt	key_status_3	342.9000	448.7281250000	0	3	105.828125	txt_key0_present_in_eeg_rare	1
+524.7226562500	n/a	stimulus	n/a	134329.0000000000	128	5	eeg+txt	MW_question	418.9000	524.7226562500	n/a	n/a	105.822656	stimulus_value_128_is_MW_prompt_in_EEG	1
+527.7148437500	n/a	response	n/a	135095.0000000000	2	5	eeg+txt	key_status_1	421.9000	527.7226562500	1	1	105.822656	aligned_by_order	1
+530.0234375000	n/a	response	n/a	135686.0000000000	2	5	eeg+txt	key_status_2	424.2000	530.0226562500	1	2	105.822656	aligned_by_order	1
+532.6226562500	n/a	response	n/a	n/a	1	5	eeg+txt	key_status_3	426.8000	532.6226562500	0	3	105.822656	txt_key0_present_in_eeg_rare	1
+627.5937500000	n/a	stimulus	n/a	160664.0000000000	128	6	eeg+txt	MW_question	521.8000	627.5937500000	n/a	n/a	105.793750	stimulus_value_128_is_MW_prompt_in_EEG	1
+632.5937500000	n/a	response	n/a	n/a	1	6	eeg+txt	key_status_1	524.4000	630.1937500000	0	1	105.793750	txt_key0_present_in_eeg_rare	1
+632.6289062500	n/a	response	n/a	161953.0000000000	8	6	eeg+txt	key_status_2	526.8000	632.5937500000	3	2	105.793750	aligned_by_order	1
+634.7937500000	n/a	response	n/a	n/a	1	6	eeg+txt	key_status_3	529.0000	634.7937500000	0	3	105.793750	txt_key0_present_in_eeg_rare	1
+766.8828125000	n/a	stimulus	n/a	196322.0000000000	128	7	eeg+txt	MW_question	661.0000	766.8828125000	n/a	n/a	105.882812	stimulus_value_128_is_MW_prompt_in_EEG	1
+772.9531250000	n/a	response	n/a	197876.0000000000	2	7	eeg+txt	key_status_1	667.1000	772.9828125000	1	1	105.882812	aligned_by_order	1
+775.3476562500	n/a	response	n/a	198489.0000000000	2	7	eeg+txt	key_status_2	669.5000	775.3828125000	1	2	105.882812	aligned_by_order	1
+777.8125000000	n/a	response	n/a	199120.0000000000	2	7	eeg+txt	key_status_3	672.0000	777.8828125000	1	3	105.882812	aligned_by_order	1
+815.8046875000	n/a	stimulus	n/a	208846.0000000000	128	8	eeg+txt	MW_question	710.0000	815.8046875000	n/a	n/a	105.804688	stimulus_value_128_is_MW_prompt_in_EEG	1
+819.3710937500	n/a	response	n/a	209759.0000000000	2	8	eeg+txt	key_status_1	713.5000	819.3046875000	1	1	105.804688	aligned_by_order	1
+821.9492187500	n/a	response	n/a	210419.0000000000	4	8	eeg+txt	key_status_2	716.1000	821.9046875000	2	2	105.804688	aligned_by_order	1
+824.9046875000	n/a	response	n/a	n/a	1	8	eeg+txt	key_status_3	719.1000	824.9046875000	0	3	105.804688	txt_key0_present_in_eeg_rare	1
+908.9843750000	n/a	stimulus	n/a	232700.0000000000	128	9	eeg+txt	MW_question	803.1000	908.9843750000	n/a	n/a	105.884375	stimulus_value_128_is_MW_prompt_in_EEG	1
+912.5937500000	n/a	response	n/a	233624.0000000000	2	9	eeg+txt	key_status_1	806.7000	912.5843750000	1	1	105.884375	aligned_by_order	1
+914.7843750000	n/a	response	n/a	n/a	1	9	eeg+txt	key_status_2	808.9000	914.7843750000	0	2	105.884375	txt_key0_present_in_eeg_rare	1
+917.0843750000	n/a	response	n/a	n/a	1	9	eeg+txt	key_status_3	811.2000	917.0843750000	0	3	105.884375	txt_key0_present_in_eeg_rare	1
+1028.0585937500	n/a	stimulus	n/a	263183.0000000000	128	10	eeg+txt	MW_question	922.2000	1028.0585937500	n/a	n/a	105.858594	stimulus_value_128_is_MW_prompt_in_EEG	1
+1033.7734375000	n/a	response	n/a	264646.0000000000	2	10	eeg+txt	key_status_1	927.9000	1033.7585937500	1	1	105.858594	aligned_by_order	1
+1036.1585937500	n/a	response	n/a	n/a	1	10	eeg+txt	key_status_2	930.3000	1036.1585937500	0	2	105.858594	txt_key0_present_in_eeg_rare	1
+1038.7585937500	n/a	response	n/a	n/a	1	10	eeg+txt	key_status_3	932.9000	1038.7585937500	0	3	105.858594	txt_key0_present_in_eeg_rare	1
+1096.8046875000	n/a	stimulus	n/a	280782.0000000000	128	11	eeg+txt	MW_question	991.0000	1096.8046875000	n/a	n/a	105.804688	stimulus_value_128_is_MW_prompt_in_EEG	1
+1103.3046875000	n/a	response	n/a	282446.0000000000	1	11	eeg+txt	key_status_1	995.2000	1101.0046875000	0	1	105.804688	txt_key0_present_in_eeg_rare	1
+1105.5046875000	n/a	response	n/a	n/a	4	11	eeg+txt	key_status_2	997.4000	1103.2046875000	2	2	105.804688	aligned_by_order	1
+1105.5312500000	n/a	response	n/a	283016.0000000000	2	11	eeg+txt	key_status_3	999.7000	1105.5046875000	1	3	105.804688	aligned_by_order	1
+1158.5273437500	n/a	stimulus	n/a	296583.0000000000	128	12	eeg+txt	MW_question	1052.7000	1158.5273437500	n/a	n/a	105.827344	stimulus_value_128_is_MW_prompt_in_EEG	1
+1161.7539062500	n/a	response	n/a	297409.0000000000	4	12	eeg+txt	key_status_1	1055.9000	1161.7273437500	2	1	105.827344	aligned_by_order	1
+1165.2109375000	n/a	response	n/a	298294.0000000000	2	12	eeg+txt	key_status_2	1059.3000	1165.1273437500	1	2	105.827344	aligned_by_order	1
+1167.5820312500	n/a	response	n/a	298901.0000000000	2	12	eeg+txt	key_status_3	1061.7000	1167.5273437500	1	3	105.827344	aligned_by_order	1
+1234.5859375000	n/a	stimulus	n/a	316054.0000000000	128	13	eeg+txt	MW_question	1128.7000	1234.5859375000	n/a	n/a	105.885937	stimulus_value_128_is_MW_prompt_in_EEG	1
+1240.3789062500	n/a	response	n/a	317537.0000000000	2	13	eeg+txt	key_status_1	1134.5000	1240.3859375000	1	1	105.885937	aligned_by_order	1
+1242.9859375000	n/a	response	n/a	n/a	1	13	eeg+txt	key_status_2	1137.1000	1242.9859375000	0	2	105.885937	txt_key0_present_in_eeg_rare	1
+1245.1859375000	n/a	response	n/a	n/a	1	13	eeg+txt	key_status_3	1139.3000	1245.1859375000	0	3	105.885937	txt_key0_present_in_eeg_rare	1
+1350.1992187500	n/a	stimulus	n/a	345651.0000000000	128	14	eeg+txt	MW_question	1244.3000	1350.1992187500	n/a	n/a	105.899219	stimulus_value_128_is_MW_prompt_in_EEG	1
+1355.0992187500	n/a	response	n/a	n/a	1	14	eeg+txt	key_status_1	1247.0000	1352.8992187500	0	1	105.899219	txt_key0_present_in_eeg_rare	1
+1355.1484375000	n/a	response	n/a	346918.0000000000	2	14	eeg+txt	key_status_2	1249.2000	1355.0992187500	1	2	105.899219	aligned_by_order	1
+1357.3992187500	n/a	response	n/a	n/a	1	14	eeg+txt	key_status_3	1251.5000	1357.3992187500	0	3	105.899219	txt_key0_present_in_eeg_rare	1
+1441.3593750000	n/a	stimulus	n/a	368988.0000000000	128	15	eeg+txt	MW_question	1335.5000	1441.3593750000	n/a	n/a	105.859375	stimulus_value_128_is_MW_prompt_in_EEG	1
+1450.0593750000	n/a	response	n/a	n/a	1	15	eeg+txt	key_status_1	1341.0000	1446.8593750000	0	1	105.859375	txt_key0_present_in_eeg_rare	1
+1450.0625000000	n/a	response	n/a	371216.0000000000	4	15	eeg+txt	key_status_2	1344.2000	1450.0593750000	2	2	105.859375	aligned_by_order	1
+1452.3593750000	n/a	response	n/a	n/a	2	15	eeg+txt	key_status_3	1346.5000	1452.3593750000	1	3	105.859375	aligned_by_order	1

@@ -13,10 +13,17 @@
   ],
   "DatasetDOI": "10.82901/nemar.on001787",
   "BIDSVersion": "1.1.1",
+  "HEDVersion": "8.4.0",
+  "GeneratedBy": [
+    {
+      "Name": "manual",
+      "Description": "Dataset metadata edits for BIDS validator alignment (units, channel counts, task descriptions)."
+    }
+  ],
   "SourceDatasets": [
     {
       "DOI": "doi:10.18112/openneuro.ds001787.v1.1.1"
     }
   ],
-  "Version": "1.0.0"
+  "Version": "1.1.1"
 }

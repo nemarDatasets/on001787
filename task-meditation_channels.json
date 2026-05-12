@@ -1,0 +1,12 @@
+{
+  "Description": "Channel labels, sensor types, and units for the montage shared across EEG recordings.",
+  "name": {
+    "Description": "Recording channel label."
+  },
+  "type": {
+    "Description": "Type of channel (EEG, MISC, GSR, RESP, PPG, TEMP)."
+  },
+  "units": {
+    "Description": "Physical unit of the stored signal."
+  }
+}

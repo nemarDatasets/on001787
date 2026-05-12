@@ -1,0 +1,19 @@
+{
+  "Description": "Task-level EEG recording metadata inherited by each continuous meditation EEG file.",
+  "TaskDescription": "Participants performed sustained seated meditation while receiving pseudorandom spoken experience-sampling probes (three sequential subjective ratings per probe). EEG was recorded continuously during the session.",
+  "Instructions": "Participants used their habitual meditation procedure (including mantra use when applicable). Between probes they resumed meditation after an auditory resume cue.",
+  "SoftwareVersions": "n/a",
+  "DeviceSerialNumber": "n/a",
+  "CogAtlasID": "n/a",
+  "CogPOID": "n/a",
+  "CapManufacturer": "Biosemi",
+  "CapManufacturersModelName": "Biosemi 64-channel EEG cap (10-20 layout)",
+  "HardwareFilters": "n/a",
+  "SubjectArtefactDescription": "n/a",
+  "EEGPlacementScheme": "10-20",
+  "EEGGround": "CMS/DRL",
+  "StimulusPresentation": {
+    "SoftwareName": "MATLAB Psychophysics Toolbox",
+    "SoftwareVersion": "n/a"
+  }
+}

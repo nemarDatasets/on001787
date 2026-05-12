@@ -1,4 +1,5 @@
 {
+  "Description": "Participant identifiers, demographics, and meditation expertise group.",
   "gender": {
     "Description": "sex of the participant",
     "Levels": {
