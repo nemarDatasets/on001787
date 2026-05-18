@@ -1,21 +1,77 @@
 {
   "version": "2.0",
-  "dataset_id": "on001787",
-  "source": "openneuro",
-  "source_id": "ds001787",
+  "pipeline_stage": "enriched",
   "title": "EEG meditation study",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Arnaud Delorme": {},
     "Tracy Brandmeyer": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds001787.v1.1.1",
       "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on001787",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on001787",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.82901/nemar.on001787",
+      "identifier_type": "DOI",
+      "relation_type": "IsVersionOf"
     }
   ],
-  "pipeline_stage": "seeded"
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "6.1 GB (58 files)"
+  ],
+  "formats": [
+    ".bdf",
+    ".gitattributes",
+    ".json",
+    ".m",
+    ".md",
+    ".tsv",
+    ".txt",
+    ".wav",
+    ".yml",
+    ".zip"
+  ],
+  "description": "This EEG dataset comprises recordings from 24 subjects during a meditation task with periodic interruptions to assess concentration and mind-wandering levels. Subjects were recorded using BIOSEMI equipment at 256 Hz (downsampled from original 2048 Hz acquisition). The dataset provides a resource for investigating neural correlates of meditative states and attentional processes.",
+  "methods_description": "EEG data were recorded using BIOSEMI equipment at 2048 Hz and subsequently downsampled to 256 Hz using the BDF decimator. During the meditation task, subjects were interrupted approximately every 2 minutes to report their level of concentration and mind-wandering.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "meditation"
+    },
+    {
+      "term": "attention"
+    },
+    {
+      "term": "mind wandering"
+    },
+    {
+      "term": "concentration"
+    },
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    }
+  ],
+  "source_hash": "cedba43a75d6cb0f20e1482d2309548c473a16b730fecfd65db4ed3dfd926b74"
 }
