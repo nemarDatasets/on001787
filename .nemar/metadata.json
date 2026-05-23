@@ -2,12 +2,43 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "EEG meditation study",
+  "description": "This EEG dataset comprises recordings from 24 subjects during a meditation experiment with periodic interruptions to assess concentration and mind-wandering levels. Subjects were recorded at 256 Hz (downsampled from original 2048 Hz acquisition) using BIOSEMI equipment. The dataset provides a resource for investigating neural correlates of meditative states and attentional processes.",
+  "methods_description": "EEG data were recorded at 2048 Hz using BIOSEMI equipment and subsequently downsampled to 256 Hz using the BDF decimator. During the meditation task, subjects were interrupted approximately every 2 minutes to report their level of concentration and mind-wandering.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
     "Arnaud Delorme": {},
     "Tracy Brandmeyer": {}
   },
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "meditation"
+    },
+    {
+      "term": "attention"
+    },
+    {
+      "term": "mind wandering"
+    },
+    {
+      "term": "consciousness"
+    },
+    {
+      "term": "concentration"
+    },
+    {
+      "term": "BIOSEMI"
+    },
+    {
+      "term": "BIDS"
+    },
+    {
+      "term": "OpenNeuro"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds001787.v1.1.1",
@@ -30,10 +61,10 @@
       "relation_type": "IsVersionOf"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
     "6.1 GB (58 files)"
   ],
@@ -48,30 +79,6 @@
     ".wav",
     ".yml",
     ".zip"
-  ],
-  "description": "This EEG dataset comprises recordings from 24 subjects during a meditation task with periodic interruptions to assess concentration and mind-wandering levels. Subjects were recorded using BIOSEMI equipment at 256 Hz (downsampled from original 2048 Hz acquisition). The dataset provides a resource for investigating neural correlates of meditative states and attentional processes.",
-  "methods_description": "EEG data were recorded using BIOSEMI equipment at 2048 Hz and subsequently downsampled to 256 Hz using the BDF decimator. During the meditation task, subjects were interrupted approximately every 2 minutes to report their level of concentration and mind-wandering.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "meditation"
-    },
-    {
-      "term": "attention"
-    },
-    {
-      "term": "mind wandering"
-    },
-    {
-      "term": "concentration"
-    },
-    {
-      "term": "Electroencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
-    }
   ],
   "source_hash": "cedba43a75d6cb0f20e1482d2309548c473a16b730fecfd65db4ed3dfd926b74"
 }
